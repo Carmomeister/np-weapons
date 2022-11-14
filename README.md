@@ -60,3 +60,29 @@ Add the following to qb-core > weapons.lua
 
 
 ```
+
+Add to qb-weapons > config.lua > Config.DurabilityMultiplier
+```
+
+	 -- NP Weapons
+	['weapon_sledgeham'] 		= 0.15,
+	['weapon_glock'] 		    = 0.15,
+	['weapon_dp9'] 		        = 0.15,
+	['weapon_browning'] 		= 0.15,
+	['weapon_microsmg2'] 		= 0.15,
+	['weapon_microsmg3'] 		= 0.15,
+	['weapon_mp7'] 	            = 0.15,
+	['weapon_minismg2'] 		= 0.15,
+	['weapon_assaultrifle2'] 	= 0.15,
+	['weapon_m4'] 		        = 0.15,
+	['weapon_sniperrifle2'] 	= 0.15,
+	['weapon_dragunov'] 		= 0.15,
+	['weapon_m14'] 		        = 0.15,
+	['weapon_g22'] 	            = 0.15,
+	['weapon_nailgun'] 	        = 0.15,
+	['weapon_book'] 	        = 0.15,
+	['weapon_brick'] 	        = 0.15,
+	['weapon_brick'] 	        = 0.15,
+	['weapon_cash'] 	        = 0.15,
+
+```
