@@ -2,6 +2,11 @@
 
 > **NOTE**: This tutorial is only for learning purposes and only contains information on how to add the custom weapons that I could find in the NP Weapons Subscription (As of the 15/11/22), if there is a weapon that you were looking for, it could be a reskin of an MPX or a different weapon, so please ask the NP Support Team in the Official Asset Discord and they will help to the best of their ability when they have time.
 
+## Requirements
+
+* NoPixel Weapons Subscription
+* QBCore Framework
+
 ### Step 1
 Add all the np weapons folders to a folder of your choice and ensure that the folders are being run on the server.
 
