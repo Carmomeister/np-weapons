@@ -24,7 +24,6 @@ Add the following to qb-core > items.lua
 	['weapon_katanas'] 		 		= {['name'] = 'weapon_katanas', 		 	['label'] = 'Katana', 	        			['weight'] = 15000, 	['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'qr_sledgehammer.png', 		['unique'] = true, 		['useable'] = true, 	['created'] = nil, 	['decay'] = 30.0, 	['description'] = 'Great for cracking skulls...'},
 	['weapon_katana'] 		 		= {['name'] = 'weapon_katana', 		 		['label'] = 'Lightsaber', 	        		['weight'] = 15000, 	['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'qr_sledgehammer.png', 		['unique'] = true, 		['useable'] = true, 	['created'] = nil, 	['decay'] = 30.0, 	['description'] = 'Great for cracking skulls...'},
 	['weapon_shiv'] 		 		= {['name'] = 'weapon_shiv', 		 		['label'] = 'Shiv', 	        			['weight'] = 15000, 	['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'np_shiv.png', 				['unique'] = true, 		['useable'] = true, 	['created'] = nil, 	['decay'] = 30.0, 	['description'] = 'Great for cracking skulls...'},
-	
 	-- NP Weapons - Custom Pistols
 	['weapon_glock'] 				= {['name'] = 'weapon_glock', 				['label'] = 'Glock 22', 					['weight'] = 4000, 		['type'] = 'weapon',	['ammotype'] = 'AMMO_PISTOL',			['image'] = 'np_glock.png', 			['unique'] = true, 		['useable'] = false, 	['created'] = nil, 	['decay'] = 30.0,	['description'] = 'A popular service pistol used by LSPD'},
 	['weapon_dp9'] 				 	= {['name'] = 'weapon_dp9', 				['label'] = 'Diamondback DB9', 				['weight'] = 2000, 		['type'] = 'weapon',	['ammotype'] = 'AMMO_PISTOL',			['image'] = 'np_DB9.png', 				['unique'] = true, 		['useable'] = false, 	['created'] = nil, 	['decay'] = 30.0,	['description'] = 'The Generation 4 DB9 comes chambered in 9mm and is dubbed as one of the smallest micro-compact 9mm pistols on the market.'},
@@ -43,13 +42,13 @@ Add the following to qb-core > items.lua
 	['weapon_m14'] 					= {['name'] = 'weapon_m14',					['label'] = 'Mk14 Enhanced Battle Rifle', 	['weight'] = 15000, 	['type'] = 'weapon', 	['ammotype'] = 'AMMO_SNIPER',			['image'] = 'np_mk14.png', 	 			['unique'] = true, 		['useable'] = false, 	['created'] = nil, 	['decay'] = 30.0, 	['description'] = 'A PD issued Designated Marksman Rifle'},
 	['weapon_g22'] 					= {['name'] = 'weapon_g22',					['label'] = 'G22 Sniper Rifle', 			['weight'] = 15000, 	['type'] = 'weapon', 	['ammotype'] = 'AMMO_SNIPER',			['image'] = 'np_awm.png', 	 			['unique'] = true, 		['useable'] = false, 	['created'] = nil, 	['decay'] = 30.0, 	['description'] = 'A PD issued Designated Marksman Rifle'},
 	-- NP Weapons - Misc Weapons
-	['weapon_nailgun'] 				= {['name'] = 'weapon_nailgun', 			['label'] = 'Nailgun', 						['weight'] = 5000, 		['type'] = 'weapon',	['ammotype'] = 'AMMO_PISTOL',			['image'] = 'np_nailgun.png', 			['unique'] = true, 		['useable'] = false, 	['created'] = nil, 	['decay'] = 30.0,	['description'] = 'Used to drive nails into wood.... or flesh'},
-	['weapon_book'] 				= {['name'] = 'weapon_book', 				['label'] = 'Holy Bible', 					['weight'] = 1000, 		['type'] = 'weapon',	['ammotype'] = 'AMMO_BALL',				['image'] = 'qr_book.png', 				['unique'] = true, 		['useable'] = false, 	['created'] = nil, 	['decay'] = 30.0,	['description'] = 'Throwing knowledge into your enemies'},
-	['weapon_brick'] 				= {['name'] = 'weapon_brick', 				['label'] = 'Concrete Brick', 				['weight'] = 1000, 		['type'] = 'weapon',	['ammotype'] = 'AMMO_BALL',				['image'] = 'brick.png', 				['unique'] = true, 		['useable'] = false, 	['created'] = nil, 	['decay'] = 30.0,	['description'] = 'Used for brick layering'},
-	['weapon_cash'] 				= {['name'] = 'weapon_cash', 				['label'] = 'Cash', 						['weight'] = 1000, 		['type'] = 'weapon',	['ammotype'] = 'AMMO_BALL',				['image'] = 'cash.png', 				['unique'] = true, 		['useable'] = false, 	['created'] = nil, 	['decay'] = 30.0,	['description'] = ''},
+	['weapon_nailgun'] 				= {['name'] = 'weapon_nailgun', 			['label'] = 'Nailgun', 						['weight'] = 5000, 		['type'] = 'weapon',	['ammotype'] = nil,			['image'] = 'np_nailgun.png', 			['unique'] = true, 		['useable'] = false, 	['created'] = nil, 	['decay'] = 30.0,	['description'] = 'Used to drive nails into wood.... or flesh'},
+	['weapon_book'] 				= {['name'] = 'weapon_book', 				['label'] = 'Holy Bible', 					['weight'] = 1000, 		['type'] = 'weapon',	['ammotype'] = nil,				['image'] = 'qr_book.png', 				['unique'] = true, 		['useable'] = false, 	['created'] = nil, 	['decay'] = 30.0,	['description'] = 'Throwing knowledge into your enemies'},
+	['weapon_brick'] 				= {['name'] = 'weapon_brick', 				['label'] = 'Concrete Brick', 				['weight'] = 1000, 		['type'] = 'weapon',	['ammotype'] = nil,				['image'] = 'brick.png', 				['unique'] = true, 		['useable'] = false, 	['created'] = nil, 	['decay'] = 30.0,	['description'] = 'Used for brick layering'},
+	['weapon_cash'] 				= {['name'] = 'weapon_cash', 				['label'] = 'Cash', 						['weight'] = 1000, 		['type'] = 'weapon',	['ammotype'] = nil,				['image'] = 'cash.png', 				['unique'] = true, 		['useable'] = false, 	['created'] = nil, 	['decay'] = 30.0,	['description'] = ''},
 	['weapon_staff'] 				= {['name'] = 'weapon_staff', 				['label'] = 'Staff', 						['weight'] = 1000, 		['type'] = 'weapon',	['ammotype'] = nil,				  		['image'] = 'np_staff01.png', 			['unique'] = true, 		['useable'] = false, 	['created'] = nil, 	['decay'] = 30.0,	['description'] = ''},
 	-- NP Weapons - Launchers
-	['weapon_ltl'] 					= {['name'] = 'weapon_ltl',					['label'] = 'Rubber Slug Shotgun', 			['weight'] = 10000, 	['type'] = 'weapon', 	['ammotype'] = 'AMMO_SNIPER',			['image'] = 'np_lessthanlethal.png', 	 			['unique'] = true, 		['useable'] = false, 	['created'] = nil, 	['decay'] = 30.0, 	['description'] = ''},
+	['weapon_ltl'] 					= {['name'] = 'weapon_ltl',					['label'] = 'Rubber Slug Shotgun', 			['weight'] = 10000, 	['type'] = 'weapon', 	['ammotype'] = nil,			['image'] = 'np_lessthanlethal.png', 	 			['unique'] = true, 		['useable'] = false, 	['created'] = nil, 	['decay'] = 30.0, 	['description'] = ''},
 
 
 ```
@@ -57,7 +56,7 @@ Add the following to qb-core > items.lua
 ### Step 3
 Add the following to qb-core > weapons.lua
 ```
-	-- NP Weapons - Custom Melee
+-- NP Weapons - Custom Melee
 	[`weapon_sledgeham`] 		 	= {['name'] = 'weapon_sledgeham', 			['label'] = 'Sledgehammer', 		['ammotype'] = nil,						['damagereason'] = 'Hammered / Pummelled'},
 	[`weapon_bats`] 		 		= {['name'] = 'weapon_bats', 		 		['label'] = 'Baseball Bat', 	    ['ammotype'] = nil,						['damagereason'] = 'Hammered / Pummelled'},
 	[`weapon_katanas`] 		 		= {['name'] = 'weapon_katanas', 		 	['label'] = 'Katana', 	        	['ammotype'] = nil,						['damagereason'] = 'Sliced / Murdered'},
