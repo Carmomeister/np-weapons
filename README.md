@@ -1,5 +1,9 @@
 # np-weapons
 
+> **NOTE**: 2 November 2023 Update For Ox Inventory Included in the files, includes all components I could find as well. If there is any missing components or weapons, please make a pull request and I will look to add it in asap.
+-------
+
+
 > **NOTE**: This tutorial is only for learning purposes and only contains information on how to add the custom weapons that I could find in the NP Weapons Subscription (As of the 15/11/22), if there is a weapon that you were looking for, it could be a reskin of an MPX or a different weapon, so please ask the NP Support Team in the Official Asset Discord and they will help to the best of their ability when they have time. 
 -------
 > I will continue to update this overtime with updates where possible. I also plan on doing a tutorial on how to also change components to different weapons.
